@@ -24,8 +24,9 @@ requirements:
     - setuptools
   run:
     - python
-    - six
+    - six >=1.12
     - setuptools
+    - typing
 
 test:
   imports:
