@@ -23,6 +23,7 @@ requirements:
     - pytest-runner
     - setuptools
   run:
+    - future
     - python
     - six >=1.12
     - setuptools
