@@ -5,7 +5,7 @@ Home: http://www.monetdb.org
 
 Package license: MPL-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymonetdb-feedstock/blob/master/LICENSE.txt)
 
 Summary: The Python API for MonetDB
 
