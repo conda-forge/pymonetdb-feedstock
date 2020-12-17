@@ -1,6 +1,6 @@
 {% set name = "pymonetdb" %}
-{% set version = "1.4.0" %}
-{% set sha256 = "514045eaf4e10d583df1526288f640f6d31e712d212f1acabc6240545aea2897" %}
+{% set version = "1.4.1" %}
+{% set sha256 = "c25c7a712a7088fd12a32e920e22e0e83e17946906b2733c825f559ada2e65d3" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python >=3.6
     - pip
     - pytest-runner
