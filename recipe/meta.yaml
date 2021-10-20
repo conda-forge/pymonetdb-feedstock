@@ -20,14 +20,10 @@ requirements:
   host:
     - python >=3.6
     - pip
-    - pytest-runner
     - setuptools
   run:
     - future
     - python >=3.6
-    - six >=1.12
-    - setuptools
-    - typing
 
 test:
   imports:
@@ -40,6 +36,7 @@ about:
   license_family: OTHER
   license_file: LICENSE
   summary: The Python API for MonetDB
+  dev_url: https://github.com/gijzelaerr/pymonetdb
   description: |
     pymonetdb is a native python client API for monetDB. This API is 
     cross-platform, and doesn't depend on any monetdb libraries. It has
