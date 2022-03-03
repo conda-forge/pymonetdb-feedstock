@@ -9,6 +9,8 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymonetdb-feeds
 
 Summary: The Python API for MonetDB
 
+Development: https://github.com/gijzelaerr/pymonetdb
+
 pymonetdb is a native python client API for monetDB. This API is
 cross-platform, and doesn't depend on any monetdb libraries. It has
 support for python 2.7, Python 3 and PyPy. The driver is also Python
@@ -61,7 +63,8 @@ conda search pymonetdb --channel conda-forge
 About conda-forge
 =================
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+[![Powered by
+NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
