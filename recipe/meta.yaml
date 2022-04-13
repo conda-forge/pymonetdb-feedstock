@@ -1,6 +1,6 @@
 {% set name = "pymonetdb" %}
-{% set version = "1.5.1" %}
-{% set sha256 = "2b8bd14d2e9f90fd69191a42f5bcad3603a66725da7f16b307cc291937ae2a56" %}
+{% set version = "1.6.1" %}
+{% set sha256 = "501ee1f7bf76095228fc80289ada451da5a2260935b4a4caa789443828a163c1" %}
 
 package:
   name: {{ name|lower }}
@@ -18,12 +18,12 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
     - setuptools
   run:
     - future
-    - python >=3.6
+    - python >=3.7
     - setuptools
 
 test:
