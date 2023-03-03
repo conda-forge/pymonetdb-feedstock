@@ -1,11 +1,11 @@
-About pymonetdb
-===============
+About pymonetdb-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymonetdb-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.monetdb.org
 
 Package license: MPL-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymonetdb-feedstock/blob/main/LICENSE.txt)
 
 Summary: The Python API for MonetDB
 
