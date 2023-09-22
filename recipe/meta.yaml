@@ -1,6 +1,6 @@
 {% set name = "pymonetdb" %}
-{% set version = "1.7.0" %}
-{% set sha256 = "55ffc4057e066d97b3ea1804f372a4b76287506799deac6a17e1e686a047250f" %}
+{% set version = "1.7.1" %}
+{% set sha256 = "d0955457265eb8492f8c722d7979b1587e72ec9bfdb315b543c784df1d52920d" %}
 
 package:
   name: {{ name|lower }}
