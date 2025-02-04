@@ -1,6 +1,6 @@
 {% set name = "pymonetdb" %}
-{% set version = "1.8.3" %}
-{% set sha256 = "0ff2a2eab7143c3d65f32abb1538e43b9d5a8b1d60a5916e4538a7540a3544ce" %}
+{% set version = "1.8.4" %}
+{% set sha256 = "30b32f733b3063b119a59d5e830c02ca5994b37723c2e0b5fc60082ecc7e005b" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
